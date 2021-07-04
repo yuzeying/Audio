@@ -1,0 +1,387 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="_Framework">
+      <UniqueIdentifier>{f04c9286-e219-4fb7-b306-f9717e9aba86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="_Libs">
+      <UniqueIdentifier>{bd8ae18d-6c27-4fef-af01-0494439e0ab5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libs\AzulCore">
+      <UniqueIdentifier>{e27cc8b3-faef-4b32-8f4f-4e06668fef2c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libs\AzulCore\include">
+      <UniqueIdentifier>{0a916840-bf75-45c5-8cb6-01add7d2e3ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libs\AzulCore\lib">
+      <UniqueIdentifier>{6cccde2a-1b53-42dc-b7d9-542c218d7a9b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libs\File">
+      <UniqueIdentifier>{24376aaa-48e7-41ee-a3d0-6cc64badd6c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libs\File\include">
+      <UniqueIdentifier>{bf730f9b-1d7f-4b1c-b37f-2778ee936bb7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libs\File\lib">
+      <UniqueIdentifier>{735fa2aa-e67c-4e1a-b662-93df5965f5e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libs\GLFW">
+      <UniqueIdentifier>{bd2c6bbd-4e41-413b-b156-67eba71a41d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libs\GLFW\include">
+      <UniqueIdentifier>{4e1feab9-4690-49f0-bd17-4339401fd6a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libs\GLFW\lib">
+      <UniqueIdentifier>{014836a7-e050-4381-920a-8e6209e65fb6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libs\Math">
+      <UniqueIdentifier>{82713a5f-c015-4cb6-bb90-ce22f40c9923}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libs\Math\include">
+      <UniqueIdentifier>{faddb569-1772-4147-9c21-90167fbf3d25}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libs\Math\lib">
+      <UniqueIdentifier>{477a8c09-a742-40a7-a7d8-99b9c35b04d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libs\SB6">
+      <UniqueIdentifier>{cb9decae-e7aa-4b85-9f3a-a82381d80370}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libs\SB6\include">
+      <UniqueIdentifier>{f3f652af-8d73-46a7-bec2-c7be40f7a3cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libs\SB6\lib">
+      <UniqueIdentifier>{70175d1f-459b-4a32-80cb-df426c7b3116}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_ThreadHelper">
+      <UniqueIdentifier>{7cb08e64-3478-4207-b5f9-66ee9aa75cbe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\GameApp">
+      <UniqueIdentifier>{c5b9d19b-b2fd-4cd4-be16-b6ad66a0bf9c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\XAudio2">
+      <UniqueIdentifier>{a1687212-6992-49c6-80fd-34d61b9db9f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\Circular Queue">
+      <UniqueIdentifier>{4491a8dc-165f-445f-9138-77ba4d724282}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\Handles">
+      <UniqueIdentifier>{bc267141-be4b-4546-8c74-cb5c7d350307}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libs\File_Slow">
+      <UniqueIdentifier>{25e3c00d-37f2-47b8-8a8e-16c557e6fd1b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libs\File_Slow\include">
+      <UniqueIdentifier>{6de4f914-9bbd-4055-bae1-b2c9862fe87c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libs\File_Slow\lib">
+      <UniqueIdentifier>{40ccb3e4-5d2b-47e5-8a84-8c2281abc99d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Framework\__DO NOT MODIFY__">
+      <Filter>_Framework</Filter>
+    </None>
+    <None Include="ClassDiagram.cd">
+      <Filter>Application</Filter>
+    </None>
+    <None Include="..\..\MS2\dist\File_Slow\lib\File_Slow_Debug.pdb">
+      <Filter>_Libs\File_Slow\lib</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Framework\Framework.h">
+      <Filter>_Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Application</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\File\include\File.h">
+      <Filter>_Libs\File\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\Math\include\Align16.h">
+      <Filter>_Libs\Math\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\Math\include\Constants.h">
+      <Filter>_Libs\Math\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\Math\include\Enum.h">
+      <Filter>_Libs\Math\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\Math\include\MathApp.h">
+      <Filter>_Libs\Math\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\Math\include\MathEngine.h">
+      <Filter>_Libs\Math\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\Math\include\Matrix.h">
+      <Filter>_Libs\Math\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\Math\include\Quat.h">
+      <Filter>_Libs\Math\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\Math\include\QuatApp.h">
+      <Filter>_Libs\Math\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\Math\include\Util.h">
+      <Filter>_Libs\Math\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\Math\include\Vect.h">
+      <Filter>_Libs\Math\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\Math\include\VectApp.h">
+      <Filter>_Libs\Math\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\SB6\include\arcball.h">
+      <Filter>_Libs\SB6\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\SB6\include\object.h">
+      <Filter>_Libs\SB6\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\SB6\include\sb6.h">
+      <Filter>_Libs\SB6\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\SB6\include\sb6ext.h">
+      <Filter>_Libs\SB6\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\SB6\include\sb6ktx.h">
+      <Filter>_Libs\SB6\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\SB6\include\sb6mfile.h">
+      <Filter>_Libs\SB6\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\SB6\include\shader.h">
+      <Filter>_Libs\SB6\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\SB6\include\vmath.h">
+      <Filter>_Libs\SB6\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\GLFW\include\GL\glfw.h">
+      <Filter>_Libs\GLFW\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\AzulCore\include\AzulCore.h">
+      <Filter>_Libs\AzulCore\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\AzulCore\include\AzulFileHdr.h">
+      <Filter>_Libs\AzulCore\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\AzulCore\include\AzulHelper.h">
+      <Filter>_Libs\AzulCore\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\AzulCore\include\Camera.h">
+      <Filter>_Libs\AzulCore\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\AzulCore\include\DebugOut.h">
+      <Filter>_Libs\AzulCore\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\AzulCore\include\Engine.h">
+      <Filter>_Libs\AzulCore\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\AzulCore\include\GpuVertTypes.h">
+      <Filter>_Libs\AzulCore\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\AzulCore\include\GraphicsObject.h">
+      <Filter>_Libs\AzulCore\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\AzulCore\include\GraphicsObject_ColorByPosition.h">
+      <Filter>_Libs\AzulCore\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\AzulCore\include\GraphicsObject_ColorNoTexture.h">
+      <Filter>_Libs\AzulCore\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\AzulCore\include\GraphicsObject_ColorNoTextureLight.h">
+      <Filter>_Libs\AzulCore\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\AzulCore\include\GraphicsObject_Sprite.h">
+      <Filter>_Libs\AzulCore\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\AzulCore\include\GraphicsObject_SpriteBox.h">
+      <Filter>_Libs\AzulCore\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\AzulCore\include\GraphicsObject_TextureFlat.h">
+      <Filter>_Libs\AzulCore\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\AzulCore\include\GraphicsObject_TextureLight.h">
+      <Filter>_Libs\AzulCore\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\AzulCore\include\GraphicsObject_WireframeAutoColor.h">
+      <Filter>_Libs\AzulCore\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\AzulCore\include\GraphicsObject_WireframeConstantColor.h">
+      <Filter>_Libs\AzulCore\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\AzulCore\include\Image.h">
+      <Filter>_Libs\AzulCore\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\AzulCore\include\Keyboard.h">
+      <Filter>_Libs\AzulCore\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\AzulCore\include\LibrarySetup.h">
+      <Filter>_Libs\AzulCore\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\AzulCore\include\Model.h">
+      <Filter>_Libs\AzulCore\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\AzulCore\include\Mouse.h">
+      <Filter>_Libs\AzulCore\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\AzulCore\include\Rect.h">
+      <Filter>_Libs\AzulCore\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\AzulCore\include\ShaderObject.h">
+      <Filter>_Libs\AzulCore\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\AzulCore\include\Texture.h">
+      <Filter>_Libs\AzulCore\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\AzulCore\include\TextureTGA.h">
+      <Filter>_Libs\AzulCore\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThreadHelper\ThreadDictionary.h">
+      <Filter>_ThreadHelper</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThreadHelper\ThreadHelper.h">
+      <Filter>_ThreadHelper</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThreadHelper\WindowsWrapper.h">
+      <Filter>_ThreadHelper</Filter>
+    </ClInclude>
+    <ClInclude Include="GameApp.h">
+      <Filter>Application\GameApp</Filter>
+    </ClInclude>
+    <ClInclude Include="InputTest.h">
+      <Filter>Application\GameApp</Filter>
+    </ClInclude>
+    <ClInclude Include="AudioThread.h">
+      <Filter>Application</Filter>
+    </ClInclude>
+    <ClInclude Include="XAudio2Chunk.h">
+      <Filter>Application\XAudio2</Filter>
+    </ClInclude>
+    <ClInclude Include="XAudio2Endianess.h">
+      <Filter>Application\XAudio2</Filter>
+    </ClInclude>
+    <ClInclude Include="XAudio2LoadLibs.h">
+      <Filter>Application\XAudio2</Filter>
+    </ClInclude>
+    <ClInclude Include="XAudio2Wrapper.h">
+      <Filter>Application\XAudio2</Filter>
+    </ClInclude>
+    <ClInclude Include="CircularData.h">
+      <Filter>Application\Circular Queue</Filter>
+    </ClInclude>
+    <ClInclude Include="CircularIndex.h">
+      <Filter>Application\Circular Queue</Filter>
+    </ClInclude>
+    <ClInclude Include="TestThread.h">
+      <Filter>Application</Filter>
+    </ClInclude>
+    <ClInclude Include="VoiceCallback.h">
+      <Filter>Application</Filter>
+    </ClInclude>
+    <ClInclude Include="Handle.h">
+      <Filter>Application\Handles</Filter>
+    </ClInclude>
+    <ClInclude Include="HandleMan.h">
+      <Filter>Application\Handles</Filter>
+    </ClInclude>
+    <ClInclude Include="SndManager.h">
+      <Filter>Application</Filter>
+    </ClInclude>
+    <ClInclude Include="Snd.h">
+      <Filter>Application</Filter>
+    </ClInclude>
+    <ClInclude Include="SndCallRegistry.h">
+      <Filter>Application</Filter>
+    </ClInclude>
+    <ClInclude Include="PlaylistData.h">
+      <Filter>Application</Filter>
+    </ClInclude>
+    <ClInclude Include="Playlist.h">
+      <Filter>Application</Filter>
+    </ClInclude>
+    <ClInclude Include="BufferManager.h">
+      <Filter>Application</Filter>
+    </ClInclude>
+    <ClInclude Include="VoiceManager.h">
+      <Filter>Application</Filter>
+    </ClInclude>
+    <ClInclude Include="TimeManager.h" />
+    <ClInclude Include="Command.h">
+      <Filter>Application</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\MS2\dist\File_Slow\include\File_Slow.h">
+      <Filter>_Libs\File_Slow\include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Game.cpp">
+      <Filter>Application</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ThreadHelper\ThreadDictionary.cpp">
+      <Filter>_ThreadHelper</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ThreadHelper\ThreadHelper.cpp">
+      <Filter>_ThreadHelper</Filter>
+    </ClCompile>
+    <ClCompile Include="GameApp.cpp">
+      <Filter>Application\GameApp</Filter>
+    </ClCompile>
+    <ClCompile Include="InputTest.cpp">
+      <Filter>Application\GameApp</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Application\GameApp</Filter>
+    </ClCompile>
+    <ClCompile Include="AudioThread.cpp">
+      <Filter>Application</Filter>
+    </ClCompile>
+    <ClCompile Include="XAudio2Chunk.cpp">
+      <Filter>Application\XAudio2</Filter>
+    </ClCompile>
+    <ClCompile Include="CircularData.cpp">
+      <Filter>Application\Circular Queue</Filter>
+    </ClCompile>
+    <ClCompile Include="CircularIndex.cpp">
+      <Filter>Application\Circular Queue</Filter>
+    </ClCompile>
+    <ClCompile Include="TestThread.cpp">
+      <Filter>Application</Filter>
+    </ClCompile>
+    <ClCompile Include="Handle.cpp">
+      <Filter>Application\Handles</Filter>
+    </ClCompile>
+    <ClCompile Include="HandleMan.cpp">
+      <Filter>Application\Handles</Filter>
+    </ClCompile>
+    <ClCompile Include="SndManager.cpp">
+      <Filter>Application</Filter>
+    </ClCompile>
+    <ClCompile Include="Snd.cpp">
+      <Filter>Application</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="..\dist\File\lib\File_Debug.lib">
+      <Filter>_Libs\File\lib</Filter>
+    </Library>
+    <Library Include="..\dist\Math\lib\MathEngine_Debug.lib">
+      <Filter>_Libs\Math\lib</Filter>
+    </Library>
+    <Library Include="..\dist\SB6\lib\sb6_Debug.lib">
+      <Filter>_Libs\SB6\lib</Filter>
+    </Library>
+    <Library Include="..\dist\GLFW\lib\GLFW_Debug.lib">
+      <Filter>_Libs\GLFW\lib</Filter>
+    </Library>
+    <Library Include="..\dist\AzulCore\lib\AzulCore_Debug.lib">
+      <Filter>_Libs\AzulCore\lib</Filter>
+    </Library>
+    <Library Include="..\..\MS2\dist\File_Slow\lib\File_Slow_Debug.lib">
+      <Filter>_Libs\File_Slow\lib</Filter>
+    </Library>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="SndManager">
+    <Position X="1.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAJAAAABAAAABAAACAAAAAEAAAAAgpAAAAAA=</HashCode>
+      <FileName>SndManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Snd">
+    <Position X="3.5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAACAAAAAAAAAABAAAgAAgAAAACAA=</HashCode>
+      <FileName>Snd.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="sndID" />
+    </ShowAsAssociation>
+  </Class>
+  <Enum Name="SndId">
+    <Position X="5.75" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAADQAAAAA=</HashCode>
+      <FileName>SndCallRegistry.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
